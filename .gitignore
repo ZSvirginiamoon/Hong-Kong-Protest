@@ -1,0 +1,47 @@
+# Raw / cleaned data
+0_raw_data/*
+1_clean_data/*
+3_output/*
+4_comments/*
+5_previous_overleaf/*
+6_related_papers/*
+7_arcgis/*
+
+# Keep folder names if needed
+!0_raw_data/.gitkeep
+!1_clean_data/.gitkeep
+!3_output/.gitkeep
+
+# ArcGIS locks and temp
+*.lock
+# ArcGIS common files
+*.gdb/
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.lock
+*.lyrx
+*.aprx
+
+# Stata logs/temp
+*.log
+*.smcl
+*.tmp
+
+# LaTeX temp
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+
+# OS files
+.DS_Store
+Thumbs.db
